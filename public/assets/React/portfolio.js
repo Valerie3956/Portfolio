@@ -10,7 +10,7 @@ export default [
         Framework: "React",
         screenshots: ["../images/Recipes/Screenshot 2023-10-17 103512.png", "../images/Recipes/Screenshot 2023-10-17 103536.png", "../images/Recipes/Screenshot 2023-10-17 103812.png"],
         link: "https://github.com/Valerie3956/recipes",
-        live: "https://valerie3956recipes.netlify.app/"
+        // live: "https://valerie3956recipes.netlify.app/"
     },
     {
         name: "Morning Routine app",
