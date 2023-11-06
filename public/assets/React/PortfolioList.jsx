@@ -9,6 +9,7 @@ export default function PortfolioList(props){
         <div className = "portfolio">
             <h3>Project Name: {props.name}</h3>
             <p>Framework: {props.framework}</p>
+{  props.live &&  <a href = {props.live} className = "github">View Live</a>}
 <a href = {props.link} className = "github">See on Github</a>
 <div>
 <img src = {props.img1} className = "portfolio--image" ></img>

@@ -15,6 +15,7 @@ const portfolioItems = portfolio.map(item => {
     img2 = {item.screenshots[1]}
     img3 = {item.screenshots[2]}
     link = {item.link}
+    live = {item.live}
     />
   )
 })
