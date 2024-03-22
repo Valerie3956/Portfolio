@@ -1,11 +1,30 @@
-import { createRoot } from 'react-dom/client';
-import React from "react";
-import ReactDOM from "react-dom"
+import { useState } from 'react'
+import portfolio from './portfolio'
+import PortfolioList from './portfolioList'
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-      <h1>Hello world</h1>
-    </React.StrictMode>,
+export default function App() {
+
+const portfolioItems = portfolio.map(item => {
+  return(
+    <PortfolioList 
+    name = {item.name}
+    framework = {item.Framework}
+    screenshots = {item.screenshots}
+    img1 = {item.screenshots[0]}
+    img2 = {item.screenshots[1]}
+    img3 = {item.screenshots[2]}
+    link = {item.link}
+    live = {item.live}
+    />
   )
-  
+})
+
+  return (
+    <>
+      {portfolioItems}
+    </>
+  )
+}
+
+
