@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import App from './assets/react/App.jsx'
+// import './index.css'
 // import "/assets/css/main.css"
 // import "/assets/css/noscript.css"
 // import "./assets/css/fontawesome-all.min.css"
